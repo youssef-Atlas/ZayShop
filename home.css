@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav1{
+    background-color: rgb(54, 54, 54);
+    padding: 10px 0 10px 0;
+    
+}
+.container1{
+    margin: auto;
+    width: 80%;
+
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.data_nav1 a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.data_nav1{
+    display: flex;
+    gap: 15px;
+}
+.data_nav1 i{
+    color: white;
+}
+.icons_nav{
+    display: flex;
+    gap: 20px;
+
+}
+.data_1{
+    font-family: sans-serif;
+    font-size: small;
+}
+.data_2{
+    font-size: small;
+}
+.icons_nav a{
+    text-decoration: none;
+    color: white;   
+}
+.nav2{
+    padding: 20px 0 20px 0px;
+    
+}
+.row_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.first_link{
+    color:  #59ab6e;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.link_pages ul{
+    list-style:none;
+    display: flex;
+    gap: 150px;
+    font-size: 18px;
+}
+.link_pages ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    
+}
+.icons_2{
+    display: flex;
+    gap: 15px;
+}
+
+.icons_top{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 20px;
+}
+
+.sec1{
+    background-color: #59ab6e;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    
+}
+.text1{
+    width: 70%;
+    
+}
+.line1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.line2{
+    font-size: 18px;
+    color: white;
+    line-height: 1.4;
+    
+    font-family: sans-serif;
+}
+.img1{
+    width: 100%;
+}
+.sec2{
+    padding: 80px;
+    height: 85vh;
+}
+
+.sec3{
+    background-color:rgb(168, 166, 166);
+    height: 70vh;
+    padding: 80px;   
+}
+.container2{
+    margin: auto;
+    width: 100%;
+}
+.text3 h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom:20px ;
+}
+.text3 p{
+    display:flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.container3{
+    margin: auto;
+    width: 90%;
+
+}
+.buttons .btn{
+    border: none;
+    padding: 60px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #59ab6e;
+    padding-bottom: 20px;
+      
+}
+.style{
+    font-size: large;
+    font-family: sans-serif;
+}
+.buttons :hover{
+    cursor: pointer;
+    background-color:#59ab6e;
+    color: white;
+
+}
+.sec3_logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    
+}
+    .imgs_bottom{
+        width: 10%;
+        height: 10vh;  
+}
+footer{
+    background-color: #212934;
+    padding: 80px 5px;
+  position: relative;  
+}
+.row_footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(109, 108, 108);
+    
+    
+    
+     
+}
+.row_footer ul{
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+.row_footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+h2{
+    border-bottom: 0.2px solid rgb(109, 108, 108);
+    color: white;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.row_footer ul li {
+    
+    line-height: 2;
+}
+.final{
+    color: #59ab6e ;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.row_footer ul li  :hover{
+    color:#59ab6e ;
+}
+.Further_Info h2{
+    color: #59ab6e;
+}
+.Products h2{
+    color: #59ab6e;
+}
+.last_text{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+.last_link{
+    color: #59ab6e;
+}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { background: #efefef !important;}
+/* Accordion */
+.templatemo-accordion a { color: #000;}
+.templatemo-accordion a:hover { color: #333d4a;}
+.edits{
+    color: #59ab6e;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

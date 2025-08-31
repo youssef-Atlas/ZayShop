@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+</head>
+<body>
+    <nav class="nav1">
+        <div class="container">
+            <div class="row">
+                <div class="data_nav">
+                    <i class="fa-regular fa-envelope"></i>
+                    <a class="data_1" href="mailto:info.company@comany.com">info.company@comany.com</a>
+                    <i class="fa-solid fa-phone"></i>
+                    <a class="data_2" href="tel:010-020-0340">010-020-0340</a>
+                </div>
+                <div class="icons_nav">
+                    <a class="icons_top" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="icons_top" href="https://www.inestegram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="icons_top" href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="icons_top" href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+    
+                </div>
+
+            </div>
+           
+        </div>
+    </nav>
+    <!--top nav-->
+    <!--bottom nav-->
+    <nav class="nav2">
+        <div class="container">
+            <div class="row_2">
+                <div class="zay">
+                    <a class="first_link" href="#">Zay</a>
+                </div>
+                <div class="link_pages">
+                    <ul>
+                        <li><a class="three_links" href="home.html">Home</a></li>
+                        <li><a class="three_links" href="about.html">About</a></li>
+                        <li><a class="three_links" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+
+                </div>
+                <div class="icons_2">
+                    <a class="icons_top" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="icons_top" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="icons_top" href="#"><i class="fa-solid fa-user"></i></a>
+                    
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </nav>
+    <section class="sec3ex">
+        <div class="container">
+            <div class="row2">
+                <div class="text3">
+                    <h1>Contact Us</h1>
+                    <p>Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet. </p>
+                    <p class="p2">dolor sit amet.</p>
+    
+                </div>
+                
+    
+            </div>
+    
+        </div>
+    </section>
+     <!-- Start Map -->
+     <div id="mapid" style="width: 100%; height: 300px;"></div>
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+     <script>
+         var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
+ 
+         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+             maxZoom: 18,
+             attribution: 'Zay Telmplte | Template Design by <a href="https://templatemo.com/">Templatemo</a> | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                 '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                 'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+             id: 'mapbox/streets-v11',
+             tileSize: 512,
+             zoomOffset: -1
+         }).addTo(mymap);
+ 
+         L.marker([-23.013104, -43.394365, 13]).addTo(mymap)
+             .bindPopup("<b>Zay</b> eCommerce Template<br />Location.").openPopup();
+ 
+         mymap.scrollWheelZoom.disable();
+         mymap.touchZoom.disable();
+     </script>
+     <!-- Ena Map -->
+      
+        <form>
+            <div class="container">
+                <div class="all">
+                    <div class="row_form">
+                        <div style="margin-bottom: 20px;">
+                            <label for="fname" class="lbl">Name</label><br>
+                <input type="text" id="fname" class="finput1 " name="fname" placeholder="Name"><br>
+    
+                        </div>
+                        <div style="margin-bottom: 20px;" >
+                            <label for="fname" class="lbl">Email</label><br>
+                            <input type="text" id="fname " class="finput2" name="fname" placeholder="Email" ><br>
+                        </div>
+                        
+                
+    
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label for="fname" class="lbl" >Subject</label><br>
+                <input type="text" id="fname" class="finput" name="fname" placeholder="Subject"><br>
+
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label for="fname" class="lbl">Message</label><br>
+                <textarea name="textarea" id="textarea" placeholder="Message" rows="10" cols="100" class="textarea "></textarea>
+
+                    </div>
+                    
+                        
+                       <div class="ctc_btn">
+                        <button class="contact_btn">Let's Talk </button>
+
+                       </div> 
+                    
+                
+
+                </div>
+                
+
+                
+
+            </div>
+            
+          </form>
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row_footer">
+                <div class="Zay Shop">
+                    <h2 class="final">Zay Shop</h2>
+                    <ul>
+                        <li style="color: white; font-family: sans-serif; font-size: large;">123 Consectetur at ligula 10660</li>
+                        <li><a href="#">010-020-0340</a></li>
+                        <li><a href="#">info.company@comany.com</a></li>
+                    </ul>
+
+                </div>
+                <div class="Products">
+                    <h2>Products</h2>
+                    <ul>
+                        <li><a href="#">Luxury</a></li>
+                        <li><a href="#">Sport Wear</a></li>
+                        <li><a href="#">Mens's Shoes</a></li>
+                        <li><a href="#">Women's Shoes</a></li>
+                        <li><a href="#">Popular Dress</a></li>
+                        <li><a href="#">Gym Accessories</a></li>
+                        <li><a href="#">Sport Shoes</a></li>
+                        
+                    </ul>
+
+                </div>
+                <div class="Further Info">
+                    <h2>Further Info</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shop Locations</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact</a></li>
+                        
+                    </ul>
+
+                </div>
+                
+
+            </div>
+            <div class="last_text">
+                <p>Copyright © 2021 Company Name | Designed by <a href="#" class="last_link">TemplateMo</a></p>
+
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
