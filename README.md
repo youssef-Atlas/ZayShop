@@ -1,3 +1,3 @@
-#A mini shop fron end oroject
+#A mini shop front end project
 
 # decription
